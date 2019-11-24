@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4" style="padding-top: 20px;padding-right: 20px;">
+                        <h3 class="text-dark mb-0">Hi, Steve</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4" style="margin: 0px;margin-bottom: 0px;height: 300px;">
+                            <a href="./stats/index.html">
+                            <div class="card shadow" id="stats">
+                                <div class="card-header d-flex align-items-center py-3" style="height: 39px;padding-top: 10px;">
+                                    <h6 class="text-primary d-flex font-weight-bold m-0">Progress</h6>
+                                </div>
+                                <div class="card-body" style="height: 267px;width: 304;">
+                                    <h4 class="small font-weight-bold">Kicks,&nbsp;<span id="kicks" class="small font-weight-bold">0</span>&nbsp;&nbsp;<span class="float-right small font-weight-bold" id="kicks_span">0%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger small font-weight-bold" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" id="kicks_bar" style="width: 0%;"><span class="sr-only">0%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Run Distance,&nbsp;<span id="dist">0</span>&nbsp;<span class="float-right" id="dist_span">0%</span></h4>
+                                    <div class="progress" style="margin-bottom: 24px;">
+                                        <div class="progress-bar bg-warning" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" id="dist_bar" style="width: 0%;"><span class="sr-only">0%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Zidane Roulette,&nbsp;<span id="zi_rou">0</span><span class="float-right" id="zirou_span">0%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-primary" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" id="zirou_bar" style="width: 00%;"><span class="sr-only">0</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Inside Hook,&nbsp;<span>0</span><span class="float-right" id="hooks_span">0%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-info" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" id="hooks_bar" style="width: 0%;"><span class="sr-only mb-4">0%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="margin-bottom: 12px;padding-right: 0px;">
+                            <div class="card shadow d-flex flex-grow-1 border-left-success py-2" style="margin-right: 12px;">
+                                <div class="card-body" style="padding: 10px;">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>Average Speed</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="a_speed">30.4</span><span>&nbsp;mph</span></div>
+                                        </div>
+                                        <div class="col-auto"><img src="assets/img/acceleration.svg" style="width: 40px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="padding-right: 12px;padding-left: 0px;">
+                            <div class="card shadow flex-grow-1 border-left-warning py-2">
+                                <div class="card-body" style="padding: 10px;">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>Average Hight</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="a_height">12.4</span><span>&nbsp;m</span></div>
+                                        </div>
+                                        <div class="col d-flex flex-grow-0 justify-content-end"><img src="assets/img/height.svg" style="width: 36px;height: 36px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 12px;">
+                        <div class="col" style="margin-bottom: 12px;padding-right: 0px;">
+                            <div class="card shadow border-left-primary py-2" style="padding-top: 0;padding-right: 8px;margin-right: 12px;">
+                                <div class="card-body" style="padding: 10px;">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Average Spin</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="a_spin" src="assets/img/spin.svg" style="height: 39px;">370.8</span><span>&nbsp;rpm</span></div>
+                                        </div>
+                                        <div class="col-auto"><img src="assets/img/spin.svg" style="height: 39px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="padding-right: 12px;padding-left: 0px;">
+                            <div class="card border-left-info py-2">
+                                <div class="card-body" style="padding: 10px;">
+                                    <div class="row no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>Average force</span>
+                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                                            </div><span style="color: rgb(90, 92, 105);font-weight: bold;font-size: 20px;line-height: 24px;">250.3<span style="color: rgb(90, 92, 105);font-size: 20px;font-weight: bold;">&nbsp;N</span>&nbsp;</span>
+                                        </div>
+                                        <div class="col d-flex justify-content-end align-items-center"><img class="d-flex justify-content-end align-items-center" src="assets/img/football-player-setting-ball.svg" style="width: 39px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="margin-bottom: 24px;">
+                            <a href="./practice/index.html">
+                            <div class="card flex-grow-1 flex-shrink-1 border-left-primary py-2">
+                                <div class="row" style="margin-right: 0px;margin-left: 0px;">
+                                    <div class="col d-flex justify-content-start align-items-center" style="margin-left: 0px;margin-bottom: 0px;padding-right: 0px;padding-left: 0px;"><span class="d-flex justify-content-start align-items-center" style="color: rgb(90, 92, 105);font-size: 20px;font-family: Nunito, sans-serif;letter-spacing: normal;font-weight: bold;padding-bottom: 0px;padding-left: 20px;">Practice</span></div>
+                                    <div
+                                        class="col d-flex justify-content-end"><img class="d-flex justify-content-end" src="assets/img/training.svg" style="width: 60px;margin-right: 0px;margin-left: 0px;height: 45px;padding-right: 0px;"></div>
+                            </div>
+                        </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-white sticky-footer" style="height: 32px;padding-top: 20px;">
+            <div class="container d-flex justify-content-center align-items-center align-content-center align-self-center justify-content-md-center">
+                <div class="text-center my-auto copyright"><span class="d-flex justify-content-center align-items-center align-content-center align-self-center justify-content-md-center">Copyright © TrAIner 2019</span></div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script>
+        $.ajax({
+        type: "POST,
+        url: "http://127.0.0.1:8000",
+        data: data,
+        success: function (data) {
+        alert(data); // here you got `$result` in data
+        
+    }
+});
+    </script>
+
+</body>
+
+</html>
